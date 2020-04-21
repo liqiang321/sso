@@ -42,6 +42,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
                 .redirectUris("http://localhost:8087/login")
                 .scopes("all")
                 .autoApprove(false);
+        System.out.println();
     }
 
     //令牌端点配置
